@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
 
-function App() {
-  const name = 'Suala'
-  const x = true
+const App = () => {
   return (
     <div className="container">
-      <h1>Hello { name }</h1>
-      <h2>Life is {x ? "Good" : "Bad"}</h2>
+      <Header />
     </div>
   );
 }
